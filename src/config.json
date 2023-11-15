@@ -8,7 +8,7 @@
   "color_spinner": "green",
   "icon_notExpanded": {
     "type": "image",
-    "url": "/4.png"
+    "url": "https://wp-mitrol-pruebaoutput.vercel.app/4.png"
   },
   "icon_expanded": {
     "type": "text",
@@ -19,7 +19,7 @@
       "title": "",
       "icon": {
         "type": "image",
-        "url": "/1.png"
+        "url": "https://wp-mitrol-pruebaoutput.vercel.app/1.png"
       },
       "urlRedirect": "https://localhost:3000/",
       "flotante": false
@@ -28,7 +28,7 @@
       "title": "",
       "icon": {
         "type": "image",
-        "url": "./3.png"
+        "url": "https://wp-mitrol-pruebaoutput.vercel.app/3.png"
       },
       "urlRedirect": "https://localhost:3000/",
       "flotante": false
@@ -37,7 +37,7 @@
       "title": "",
       "icon": {
         "type": "image",
-        "url": "/2.png"
+        "url": "https://wp-mitrol-pruebaoutput.vercel.app/2.png"
       },
       "urlRedirect": "https://videollamadadev.mitrol.cloud:34443/pruebasGenerador/EmermedicaNewChat/index.html",
       "flotante": true
