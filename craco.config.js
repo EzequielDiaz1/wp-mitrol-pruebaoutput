@@ -1,3 +1,4 @@
+// craco.config.js
 module.exports = {
     webpack: {
       configure: {
@@ -16,5 +17,21 @@ module.exports = {
         ],
       },
     },
+    plugins: [
+      {
+        plugin: {
+          overrideWebpackConfig: ({ webpackConfig }) => {
+            // Configuración para el nombre fijo del archivo CSS
+            webpackConfig.plugins.forEach((plugin) => {
+              if (plugin.constructor.name === 'MiniCssExtractPlugin') {
+                plugin.options.filename = 'static/css/main.css';
+              }
+            });
+            return webpackConfig;
+          },
+        },
+        options: {},
+      },
+    ],
   };
   
