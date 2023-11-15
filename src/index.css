@@ -1,0 +1,28 @@
+* {
+  box-sizing: revert !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex; /* Establece el contenedor como un contenedor flexible para alinear elementos internos */
+  flex-direction: column; /* Alinea los elementos internos en una columna vertical */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+  height: 100vh; /* Toma la altura completa del viewport del navegador */
+  background-color: #f0f0f0; /* Color de fondo de la aplicación */
+  font-family: Arial, sans-serif; /* Fuente de texto predeterminada */
+  padding: 20px; /* Espaciado interior para el contenido de la aplicación */
+}

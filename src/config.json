@@ -1,0 +1,46 @@
+{
+  "widget_type": "vertical",
+  "bg_buttonNotExpanded": "rgb(120,120,120)",
+  "bg_buttonExpanded": "#C20012",
+  "bg_buttonInsideWidget": "transparent",
+  "bg_widgetExpanded": "orange",
+  "color_titleButtons": "black",
+  "color_spinner": "green",
+  "icon_notExpanded": {
+    "type": "image",
+    "url": "/4.png"
+  },
+  "icon_expanded": {
+    "type": "text",
+    "content": "X"
+  },
+  "buttons": [
+    {
+      "title": "",
+      "icon": {
+        "type": "image",
+        "url": "/1.png"
+      },
+      "urlRedirect": "https://localhost:3000/",
+      "flotante": false
+    },
+    {
+      "title": "",
+      "icon": {
+        "type": "image",
+        "url": "./3.png"
+      },
+      "urlRedirect": "https://localhost:3000/",
+      "flotante": false
+    },
+    {
+      "title": "",
+      "icon": {
+        "type": "image",
+        "url": "/2.png"
+      },
+      "urlRedirect": "https://videollamadadev.mitrol.cloud:34443/pruebasGenerador/EmermedicaNewChat/index.html",
+      "flotante": true
+    }
+  ]
+}

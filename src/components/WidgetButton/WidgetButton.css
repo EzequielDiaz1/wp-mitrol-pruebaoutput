@@ -1,0 +1,7 @@
+.widget-button {
+    z-index: 2; 
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3em;
+    align-items: center;
+  }
